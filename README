@@ -8,7 +8,7 @@ Am lucrat pe fisierul amazon_co-ecommerce_sample.csv.
 - Am folosit Apache Commons CSV pentru a citi/scrie in/din fisierul CSV si Apache Commons Pair pentru a crea o pereche
 de tip < Double, Currency> atunci cand citesc pretul unui produs din fisier.
 
-- Am implementat metodele loadStore si saveStore folosindu-ma de serializarea Store-ului si a componetelor acestuia.
+- Am implementat metodele loadStore si saveStore folosindu-ma de serializarea Store-ului si a componentelor acestuia.
 
 - Am ales sa implementez ca extra Design Pattern Facade asupra Store-ului pentru a crea o interfata mai prietenoasa
 pentru utilizator (proprietarul magazinului). Astfel, ii ofer acestuia un panou de control de la care el poate efectua
